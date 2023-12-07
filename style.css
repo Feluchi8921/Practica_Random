@@ -148,6 +148,7 @@ button.submit{
     display: flex;
     align-items: center;
     margin-top: 80px;
+    padding-bottom: 40px;
 }
 
 .formLogin h2{
