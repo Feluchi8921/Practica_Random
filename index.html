@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Usina de Tandil</title>
+</head>
+<body class="container">
+    <nav>
+        <div><img src="img/formas_pago.png" alt="pago">Formas de Pago</div>
+        <div><img src="img/tramites.png" alt="tramites">Guía de Trámites</div>
+        <div><img src="img/obras_programadas.png" alt="tramites">Obras Programadas</div>
+        <div><img src="img/tarifa_social.png" alt="tarifa">Tarifa Social</div>
+        <div><img src="img/calcular_factura.png" alt="factura">Calculá tu factura</div>
+        <div><img src="img/contacto.png" alt="contacto">Contacto</div>
+    </nav>
+    <header>
+    <img class="logo" src="img/usina_logo.png" alt="logo">
+    <span class="headerTitle"><h1>Oficina Virtual</h1><img class="monitor" src="img/monitor.svg" alt="monitor"></span>
+    </header>
+    <div class="background">
+    <div class="formLogin">
+        <h2>Iniciar Sesión</h2>
+        <span class="titleInformation"><h3>Ingresá y gestioná tus cuentas</h3><img class="information" src="img/info.svg" alt="info"></span>
+    <form class="login">
+        <label for="type">Tipo de documento</label>
+            <select id="typeDocument" name="document" required>
+                <option value="dni">DNI</option>
+                <option value="passport">PASAPORTE</option>
+            </select>
+        <label for="number">Número de documento</label>
+        <input type="number" required>
+        <label for="password">Contraseña</label>
+        <input type="text" required>
+    </form>
+    <h4><a href="#">¿Olvidó su contraseña?</a></h4>
+    <button class="submit" type="submit">Iniciar sesión</button>
+    <span class="titleInformation"><h3>¿Todavía no te registraste?</h3><h4 class="registration"><a href="#">Registrarse</a></h4></span>
+    </div>
+</div>
+</body>
+</html>
